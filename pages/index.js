@@ -11,7 +11,7 @@ export default function Home({ posts }) {
   useEffect(() => {
     if (posts.length) {
       const imgBuilder = imageUrlBuilder({
-        projectId: process.env.SANITY_PROJECT_ID,
+        projectId: "lmpi301g",
         dataset: "production",
       });
 
@@ -59,7 +59,7 @@ export default function Home({ posts }) {
 
 export const getServerSideProps = async (pageContext) => {
   const query = encodeURIComponent('*[ _type == "post" ]');
-  const url = `https://${process.env.SANITY_PROJECT_ID}.api.sanity.io/v1/data/query/production?query=${query}`;
+  const url = `https://lmpi301g.api.sanity.io/v1/data/query/production?query=${query}`;
   const result = await fetch(url).then((res) => res.json());
 
   if (!result.result || !result.result.length) {
