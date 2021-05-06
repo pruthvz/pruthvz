@@ -8,7 +8,6 @@ import { useRouter } from "next/router";
 export default function Home({ posts }) {
   const router = useRouter();
   const [mappedPosts, setMappedPosts] = useState([]);
-  console.log(process.env.SANITY_PROJECT_ID);
   useEffect(() => {
     if (posts.length) {
       const imgBuilder = imageUrlBuilder({
