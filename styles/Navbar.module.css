@@ -1,0 +1,21 @@
+/* some dead styling by a youtuber */
+.main {
+  margin: auto;
+  /* width: 750px; */
+  display: flex;
+  max-width: 100%;
+  color: white;
+  margin-bottom: 50px;
+  justify-content: center;
+  background-color: #1e1d1dbb;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.main a {
+  margin: 25px;
+  cursor: pointer;
+}
+
+.main a:hover {
+  color: rgba(168, 168, 168);
+}
