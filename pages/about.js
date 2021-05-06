@@ -1,7 +1,10 @@
-import Layout from "../components/Layout";
+import Head from "next/head";
 const About = () => {
   return (
     <div>
+      <Head>
+        <title>About me</title>
+      </Head>
       <h1>About me</h1>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque nostrum

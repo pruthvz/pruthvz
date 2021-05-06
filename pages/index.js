@@ -11,8 +11,8 @@ export default function Home({ posts }) {
   useEffect(() => {
     if (posts.length) {
       const imgBuilder = imageUrlBuilder({
-        projectId: process.env.SANITY_PROJECT_ID,
-        dataset: process.env.SANITY_DATASET,
+        projectId: "lmpi301g",
+        dataset: "production",
       });
 
       setMappedPosts(
@@ -29,6 +29,9 @@ export default function Home({ posts }) {
   }, [posts]);
   return (
     <div>
+      <Head>
+        <title>Homepage</title>
+      </Head>
       <div className={styles.main}>
         <h1>Welcome To My Blogs</h1>
 
@@ -56,7 +59,7 @@ export default function Home({ posts }) {
 
 export const getServerSideProps = async (pageContext) => {
   const query = encodeURIComponent('*[ _type == "post" ]');
-  const url = `https://${process.env.SANITY_PROJECT_ID}.api.sanity.io/v1/data/query/production?query=${query}`;
+  const url = `https://lmpi301g.api.sanity.io/v1/data/query/production?query=${query}`;
   const result = await fetch(url).then((res) => res.json());
 
   if (!result.result || !result.result.length) {
