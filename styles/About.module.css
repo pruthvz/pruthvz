@@ -1,0 +1,30 @@
+#about {
+  background: #1f2937f3;
+  height: 100vh;
+  padding: 120px;
+  color: white;
+}
+
+#about span {
+  color: #8b5cf6;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#about h1 {
+  font-size: 75px;
+  font-weight: 500;
+}
+
+#about h2 {
+  font-size: 69px;
+  font-weight: 500;
+  color: #bac6d8;
+}
+
+#about p {
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: 40;
+  color: #dce3ec;
+}
