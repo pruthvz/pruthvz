@@ -82,11 +82,12 @@ const Blogs = ({ posts }) => {
           mappedPosts.map((p, index) => (
             <div
               className={styles.post}
+              className="p-3 md:p-2"
               key={index}
               onClick={() => router.push(`/post/${p.slug.current}`)}
             >
               <div
-                className="max-w-4xl mx-auto overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800"
+                className="max-w-4xl mx-auto  overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800 hover:shadow-lg"
                 id="blogCard"
               >
                 <img
@@ -144,22 +145,24 @@ const Blogs = ({ posts }) => {
           <> No Posts Yet </>
         )}
       </div>
-      <div className="mb-5 max-w-md mx-auto bg-gray-800  rounded-xl shadow-md overflow-hidden md:max-w-6xl">
-        <div className="md:flex">
-          <div className="p-8">
-            <div className="uppercase tracking-wide text-lg text-white font-bold">
-              Tags
+      <div className="p-1">
+        <div className="mb-5 max-w-md mx-auto bg-gray-800  rounded-xl shadow-md overflow-hidden md:max-w-6xl">
+          <div className="md:flex">
+            <div className="p-8">
+              <div className="uppercase tracking-wide text-lg text-white font-bold">
+                Tags
+              </div>
+              {hashtags.map(function (tag, index) {
+                return (
+                  <span
+                    className="mt-2 inline-flex items-center justify-center px-2 py-1 mr-2 text-xs font-bold leading-none text-white bg-purple-600 rounded-full"
+                    key={index}
+                  >
+                    {tag}
+                  </span>
+                );
+              })}
             </div>
-            {hashtags.map(function (tag, index) {
-              return (
-                <span
-                  className="mt-2 inline-flex items-center justify-center px-2 py-1 mr-2 text-xs font-bold leading-none text-white bg-purple-600 rounded-full"
-                  key={index}
-                >
-                  {tag}
-                </span>
-              );
-            })}
           </div>
         </div>
       </div>

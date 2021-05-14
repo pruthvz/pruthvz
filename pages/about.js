@@ -47,7 +47,7 @@ const About = () => {
         </p>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
-          nostrum magni quos, placeat, impedit odit corrupti obcaecati sequi,
+          nostrum magni quos, placeat, impedit odit corrupti obcaeca ti sequi,
           odio adipisci distinctio accusantium quas quibusdam maxime omnis animi
           molestiae cum itaque.
         </p>
@@ -57,6 +57,63 @@ const About = () => {
           odio adipisci distinctio accusantium quas quibusdam maxime omnis animi
           molestiae cum itaque.
         </p>
+      </section>
+
+      <section className="timeli">
+        <div class="relative w-1/2 m-8">
+          <div
+            class="border-r-2 border-gray-500 absolute h-full top-0"
+            style={{ left: "15px;" }}
+          ></div>
+          <ul class="list-none m-0 p-0">
+            <li class="mb-2">
+              <div class="flex items-center mb-1">
+                <div class="bg-gray-500 rounded-full h-8 w-8"></div>
+                <div class="flex-1 ml-4 font-medium">
+                  Oct 2017 - First Release
+                </div>
+              </div>
+              <div class="ml-12">First release of Tailwind CSS</div>
+            </li>
+            <li class="mb-2">
+              <div class="flex items-center mb-1">
+                <div class="bg-gray-500 rounded-full h-8 w-8"></div>
+                <div class="flex-1 ml-4 font-medium">
+                  Nov 2017 - Multiple Releases
+                </div>
+              </div>
+              <div class="ml-12">v0.1.0 - v0.2.2</div>
+            </li>
+            <li class="mb-2">
+              <div class="flex items-center mb-1">
+                <div class="bg-gray-500 rounded-full h-8 w-8"></div>
+                <div class="flex-1 ml-4 font-medium">
+                  Feb 2018 - Other stuff happened
+                </div>
+              </div>
+              <div class="ml-12">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
+                perspiciatis facilis deserunt excepturi sunt pariatur
+                consequuntur eveniet molestias ea quia? Magni veniam illo optio
+                tempora modi exercitationem qui adipisci ex.
+              </div>
+            </li>
+            <li class="mb-2">
+              <div class="flex items-center mb-1">
+                <div class="bg-gray-500 rounded-full h-8 w-8"></div>
+                <div class="flex-1 ml-4 font-medium">
+                  July 2018 - More stuff happened
+                </div>
+              </div>
+              <div class="ml-12">
+                Consequuntur odit explicabo officiis veniam incidunt non velit
+                ex consectetur magnam minima vero hic impedit cumque, blanditiis
+                autem distinctio facere dolor atque facilis, eos, labore sunt
+                iusto. Beatae, quas, dolorem?
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </div>
   );

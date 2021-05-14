@@ -2,3 +2,47 @@
   padding-top: 70px;
   padding-bottom: 100px;
 }
+
+/* ABOUT ME CSS */
+#about {
+  background: #1f2937f3;
+  color: white;
+}
+
+#about span {
+  position: relative;
+  color: #8b5cf6;
+  top: 8px;
+  /* font-size: 20px; */
+  font-weight: 500;
+}
+
+#about h1 {
+  /* font-size: 75px; */
+  font-weight: 500;
+}
+
+#about h2 {
+  /* font-size: 69px; */
+  font-weight: 500;
+  color: #bac6d8;
+}
+
+#about p {
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: 40;
+  color: #dce3ec;
+}
+
+.btn {
+  margin-top: 50px !important;
+  padding-bottom: 100px;
+  font-weight: 400;
+}
+
+/* SKILLS */
+
+#skills #card {
+  color: white !important;
+}

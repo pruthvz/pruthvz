@@ -16,6 +16,7 @@ const Navbar = () => {
           rel="stylesheet"
         />
       </Head>
+
       <nav className="bg-gray-800 shadow" role="navigation">
         <div className="container mx-auto p-4 flex flex-wrap items-center md:flex-no-wrap">
           <div className="mr-4 md:mr-8">
@@ -23,7 +24,7 @@ const Navbar = () => {
               <a rel="home">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="w-10 h-10 text-purple-600"
+                  className="w-10 h-10 text-purple-700 hover:text-purple-500 animate-bounce"
                   id="arrowLogo"
                   viewBox="0 0 20 20"
                   fill="currentColor"
@@ -48,7 +49,7 @@ const Navbar = () => {
               type="button"
             >
               <svg
-                className="h-3 w-3"
+                className="h-3 w-3 bg-white"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
