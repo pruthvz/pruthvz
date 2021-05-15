@@ -46,3 +46,15 @@
 #skills #card {
   color: white !important;
 }
+
+#users {
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+/* services styling here */
+#services {
+  padding: 12px;
+  padding-top: 60px;
+  padding-bottom: 140px;
+}

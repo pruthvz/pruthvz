@@ -2,6 +2,9 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import TypeIt from "typeit-react";
 
+// Components
+import Project from "../components/Projects";
+
 export default function Home() {
   return (
     <div>
@@ -85,7 +88,7 @@ export default function Home() {
               href="#"
               className="btn bg-purple-700 p-2  rounded mt-5 text-1xl md:text-2xl pl-10 pr-10 transition-colors duration-300 hover:bg-purple-800 focus:outline-none focus:ring-2 focus:ring-purple-300 "
             >
-              Learn More
+              Resume <i class="fas fa-arrow-alt-to-bottom"></i>
             </a>
 
             {/* <a
@@ -312,7 +315,7 @@ export default function Home() {
         </section>
 
         {/* github  and codepen links */}
-        <section className="bg-gray-800 pt-5 pb-5 ">
+        <section className="bg-gray-800 pt-10 pb-10" id={styles.users}>
           <div class="flex items-center justify-center">
             <div class="p-4 rounded w-full">
               <div class="md:grid md:grid-cols-3 md:gap-4 space-y-4 md:space-y-0 mt-4 ">
@@ -388,6 +391,60 @@ export default function Home() {
                   </a>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* read blog section */}
+        <section
+          className="flex items-center justify-center"
+          style={{ background: "#1f2937f3", height: "500px" }}
+        >
+          <div className="text-center">
+            <p className="text-xl font-medium tracking-wider text-gray-300">
+              Blogs
+            </p>
+            <h2 className="mt-6 text-3xl font-bold text-white md:text-5xl">
+              Check out my blogs. <br /> Tech, coding and books.
+            </h2>
+
+            <div className="flex justify-center mt-8">
+              <a
+                className="px-8 py-2 text-lg font-medium text-white transition-colors duration-300 transform bg-purple-600 rounded hover:bg-purple-800"
+                href="#"
+              >
+                Read Blogs
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section id={styles.services} className="bg-gray-800">
+          <div className="container">
+            <div className="text-4xl font-bold pt-16 pb-5 text-white text-center">
+              <h1>Languages, Frameworks I know.</h1>
+            </div>
+          </div>
+          <div className="container pt-10">
+            <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+              {/* for loop */}
+              {Project.languages.map(function (lang, index) {
+                return (
+                  // lang cards
+                  <div class="p-2" key={index}>
+                    <div class="group bg-gray-900  p-6 rounded-lg shadow-lg transition duration-300 hover:bg-gray-200 transform hover:scale-105">
+                      <h2 class="text-2xl font-bold mb-2 text-gray-100 group-hover:text-gray-800">
+                        {lang.language}
+                      </h2>
+                      <p class="text-gray-400 group-hover:text-gray-700">
+                        {lang.desc}
+                      </p>
+                    </div>
+                  </div>
+                  // end cards
+                );
+              })}
+              {/* end for loop */}
             </div>
           </div>
         </section>

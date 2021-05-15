@@ -10,4 +10,52 @@ const myProjects = [
   },
 ];
 
-export default myProjects;
+const languages = [
+  {
+    language: "Python",
+    desc: "a",
+  },
+  {
+    language: "JavaScript",
+    desc: "b",
+  },
+  {
+    language: "C#",
+    desc: "c",
+  },
+  {
+    language: "React.js",
+    desc: "d",
+  },
+  {
+    language: "Next.js",
+    desc: "e",
+  },
+  {
+    language: "Django",
+    desc: "e",
+  },
+  {
+    language: "Unity 2D/3D",
+    desc: "e",
+  },
+  {
+    language: "HTML/CSS",
+    desc: "e",
+  },
+  {
+    language: "TailwindCSS",
+    desc: "g",
+  },
+  {
+    language: "Bootstrap",
+    desc: "Material Design Bootstrap and Bootstrap",
+  },
+];
+
+const internalData = {
+  myProjects,
+  languages,
+};
+
+export default internalData;
