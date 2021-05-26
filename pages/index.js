@@ -10,6 +10,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Pruthvi Mohanlal | Portfolio</title>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       </Head>
       <div className={styles.main}>
         <header className="bg-gray-800" x-data="{ isOpen: false }">
@@ -102,12 +103,15 @@ export default function Home() {
 
         {/* THESE CARDS CAN BE SIMPELY LOOPED  */}
         <section className="bg-gray-800 pt-5 pb-5" id={styles.skills}>
-          <div className="container">
+          <div className="container" data-aos="fade-up">
             <div className="text-4xl font-bold pt-12 text-white text-center">
               <h1>Skills</h1>
             </div>
           </div>
-          <div className="p-5 md:p-20 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+          <div
+            className="p-5 md:p-20 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+            data-aos="fade-up"
+          >
             <div className="group max-w-2xl rounded-lg mx-auto p-10 md:p-16 transform transition duration-200 hover:scale-105 hover:shadow-md ring-2 ring-purple-200 hover:bg-white">
               <h1 className="text-2xl font-medium mb-2 text-white group-hover:text-black">
                 Let's build with Tailwind css
@@ -158,7 +162,7 @@ export default function Home() {
           id={styles.skills}
           style={{ background: "#1f2937f3" }}
         >
-          <div className="container px-5 py-24 mx-auto">
+          <div className="container px-5 py-24 mx-auto" data-aos="fade-up">
             <div className="flex flex-wrap w-full mb-20">
               <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
                 <h1 className="sm:text-4xl text-2xl font-medium title-font mb-2 text-gray-200 font-bold">
@@ -304,7 +308,7 @@ export default function Home() {
               {/* end of cards */}
             </div>
           </div>
-          <div className="flex justify-center mt-1">
+          <div className="flex justify-center mt-1" data-aos="fade-right">
             <a
               className="px-8 py-2 text-lg font-medium text-white transition-colors duration-300 transform border border-white rounded hover:bg-purple-500 hover:border-transparent "
               href="/projects"
@@ -318,8 +322,11 @@ export default function Home() {
         <section className="bg-gray-800 pt-10 pb-10" id={styles.users}>
           <div class="flex items-center justify-center">
             <div class="p-4 rounded w-full">
-              <div class="md:grid md:grid-cols-3 md:gap-4 space-y-4 md:space-y-0 mt-4 ">
-                <div class="group shadow border rounded-lg bg-gray-800 hover:bg-gray-100 transition duration-200  ">
+              <div
+                class="md:grid md:grid-cols-3 md:gap-4 space-y-4 md:space-y-0 mt-4 "
+                data-aos="fade-up"
+              >
+                <div class="group shadow border rounded-lg bg-gray-800 hover:bg-gray-100 transition duration-200">
                   <div class="flex items-center space-x-4 p-4">
                     <div class="flex items-center p-4 bg-purple-600 text-white rounded-lg">
                       <i class="fab fa-github "></i>
@@ -400,7 +407,7 @@ export default function Home() {
           className="flex items-center justify-center"
           style={{ background: "#1f2937f3", height: "500px" }}
         >
-          <div className="text-center">
+          <div className="text-center" data-aos="fade-up">
             <p className="text-xl font-medium tracking-wider text-gray-300">
               Blogs
             </p>
@@ -431,8 +438,8 @@ export default function Home() {
               {Project.languages.map(function (lang, index) {
                 return (
                   // lang cards
-                  <div class="p-2" key={index}>
-                    <div class="group bg-gray-900  p-6 rounded-lg shadow-lg transition duration-300 hover:bg-gray-200 transform hover:scale-105">
+                  <div class="p-2" key={index} data-aos="fade-up">
+                    <div class="group bg-gray-900  p-6 rounded-lg shadow-lg transition duration-200 hover:bg-gray-200 transform hover:scale-105">
                       <h2 class="text-2xl font-bold mb-2 text-gray-100 group-hover:text-gray-800">
                         {lang.language}
                       </h2>
@@ -448,6 +455,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <script type="text/javascript">AOS.init();</script>
       </div>
     </div>
   );

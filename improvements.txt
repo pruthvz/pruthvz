@@ -28,3 +28,31 @@ BLOGGING WEBSITE USING NEXT.JS AND SANITY !
 <div>
     <h5>Dogecoin to the moon !</h5>
 </div>
+
+
+<div>
+    About me 
+
+    - About me,
+    - My skills, languages i know
+    - my likes and dislikes, hobbies
+</div>
+
+
+<div>
+    CHANGE LOREM TEXT 
+
+   - BLOGS PAGE,
+    - REDESIGN THE PAGE
+
+   - PROJECTS PAGE,
+    - ADD PROJECTS
+
+   - HOMEPAGE,
+    - REMOVE LOREM
+
+    - About me,
+    - REMOVE LOREM
+    - My skills, languages i know
+    - my likes and dislikes, hobbies
+</div>

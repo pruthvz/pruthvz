@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div>
       <Head>
-        <title>About me</title>
+        <title>About me | Portfolio</title>
       </Head>
       <header className="bg-gray-800" x-data="{ isOpen: false }">
         <section
@@ -33,75 +33,135 @@ const About = () => {
       </header>
 
       {/* content */}
-      <section id={styles.about}>
-        <span>Hi my name is</span>
-        <h1>Pruthvi Mohanlal.</h1>
+      <section id={styles.about} className="p-5 md:p-32">
+        <h1 className="mt-6 text-5xl font-bold text-white md:text-8xl">
+          Pruthvi Mohanlal.
+        </h1>
 
-        <h2>I build webistes for jokes.</h2>
-
-        <p>
+        <h2 className="mt-6 text-4xl font-bold md:text-6xl">
+          I build things on the web for jokes. <i class="fas fa-smile-wink"></i>
+        </h2>
+        <p className="mt-1">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
           nostrum magni quos, placeat, impedit odit corrupti obcaecati sequi,
           odio adipisci distinctio accusantium quas quibusdam maxime omnis animi
-          molestiae cum itaque.
+          molestiae cum itaque. Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Atque nostrum magni quos, placeat, impedit odit
+          corrupti obcaeca ti sequi, odio adipisci distinctio accusantium quas
+          quibusdam maxime omnis animi molestiae cum itaque.
         </p>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
-          nostrum magni quos, placeat, impedit odit corrupti obcaeca ti sequi,
-          odio adipisci distinctio accusantium quas quibusdam maxime omnis animi
-          molestiae cum itaque.
-        </p>
-        <p>
+        <p className="mt-1">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
           nostrum magni quos, placeat, impedit odit corrupti obcaecati sequi,
           odio adipisci distinctio accusantium quas quibusdam maxime omnis animi
-          molestiae cum itaque.
+          molestiae cum itaque. Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Atque nostrum magni quos, placeat, impedit odit
+          corrupti obcaeca ti sequi, odio adipisci distinctio accusantium quas
+          quibusdam maxime omnis animi molestiae cum itaque.
         </p>
+
+        <div className={styles.btn}>
+          <a
+            href="#"
+            className="btn bg-purple-700 p-2  rounded mt-5 text-1xl md:text-2xl pl-10 pr-10 transition-colors duration-300 hover:bg-purple-800 focus:outline-none focus:ring-2 focus:ring-purple-300 "
+          >
+            Resume <i class="fas fa-arrow-alt-to-bottom"></i>
+          </a>
+        </div>
       </section>
 
-      <section className="skills bg-gray-700">
-        <div className="container mx-auto">
-          <div className="row">
-            <div class="grid grid-cols-2 gap-4 p-2  pt-10 pb-10 md:p-10">
-              <div className="relative pt-1">
-                <div className="flex mb-2 items-center justify-between">
-                  <div>
-                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-purple-600 bg-purple-200">
-                      React.js
-                    </span>
-                  </div>
-                  <div className="text-right">
-                    <span className="text-xs font-semibold inline-block text-purple-600">
-                      80%
-                    </span>
-                  </div>
-                </div>
-                <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-purple-200">
-                  <div
-                    style={{ width: "80%" }}
-                    className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500"
-                  ></div>
-                </div>
+      <section id="progress">
+        <div class="container bg-gray-700 mx-auto w-full h-full">
+          {/* <div className="text-3xl mb-5 font-bold pt-12 text-white text-center">
+            <h1>My Progress</h1>
+          </div> */}
+          <div class="relative wrap overflow-hidden p-10 h-full">
+            <div
+              class="border-2-2 absolute border-opacity-60 border-white h-full border"
+              style={{ left: "50%" }}
+            ></div>
+
+            <div class="mb-8 flex justify-between  items-center w-full right-timeline">
+              <div class="order-1 w-5/12"></div>
+              <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
               </div>
-              <div className="relative pt-1">
-                <div className="flex mb-2 items-center justify-between">
-                  <div>
-                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-purple-600 bg-purple-200">
-                      Next.js
-                    </span>
-                  </div>
-                  <div className="text-right">
-                    <span className="text-xs font-semibold inline-block text-purple-600">
-                      75%
-                    </span>
-                  </div>
-                </div>
-                <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-purple-200">
-                  <div
-                    style={{ width: "75%" }}
-                    className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500"
-                  ></div>
-                </div>
+              <div
+                class="order-1 bg-gray-900 rounded-lg shadow-xl w-5/12 px-6 py-4"
+                data-aos="fade-left"
+              >
+                <h3 class="mb-3 font-bold text-gray-200 text-xl">
+                  Lorem Ipsum
+                </h3>
+                <p class="text-sm leading-snug tracking-wide text-gray-400 text-opacity-100">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+              </div>
+            </div>
+
+            <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+              <div class="order-1 w-5/12"></div>
+              <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                <h1 class="mx-auto text-white font-semibold text-lg">2</h1>
+              </div>
+              <div
+                class="order-1 bg-gray-800 rounded-lg shadow-xl w-5/12 px-6 py-4"
+                data-aos="fade-right"
+              >
+                <h3 class="mb-3 font-bold text-white text-xl">Lorem Ipsum</h3>
+                <p class="text-sm font-medium leading-snug tracking-wide text-gray-400 text-opacity-100">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+              </div>
+            </div>
+
+            <div class="mb-8 flex justify-between items-center w-full right-timeline">
+              <div class="order-1 w-5/12"></div>
+              <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                <h1 class="mx-auto font-semibold text-lg text-white">3</h1>
+              </div>
+              <div
+                class="order-1 bg-gray-900 rounded-lg shadow-xl w-5/12 px-6 py-4"
+                data-aos="fade-left"
+              >
+                <h3 class="mb-3 font-bold text-gray-200 text-xl">
+                  Lorem Ipsum
+                </h3>
+                <p class="text-sm leading-snug tracking-wide text-gray-400 text-opacity-100">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+              </div>
+            </div>
+
+            <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+              <div class="order-1 w-5/12"></div>
+              <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                <h1 class="mx-auto text-white font-semibold text-lg">4</h1>
+              </div>
+              <div
+                class="order-1 bg-gray-800 rounded-lg shadow-xl w-5/12 px-6 py-4"
+                data-aos="fade-right"
+              >
+                <h3 class="mb-3 font-bold text-white text-xl">Lorem Ipsum</h3>
+                <p class="text-sm font-medium leading-snug tracking-wide text-gray-400 text-opacity-100">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
               </div>
             </div>
           </div>

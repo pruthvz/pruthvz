@@ -44,7 +44,7 @@ const Blogs = ({ posts }) => {
   return (
     <div>
       <Head>
-        <title>My Blogs</title>
+        <title>My Latest Blogs</title>
       </Head>
       <header className="bg-gray-800" x-data="{ isOpen: false }">
         <section
