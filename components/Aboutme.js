@@ -15,38 +15,35 @@ function Aboutme() {
           I build things on the web for jokes. <i class="fas fa-smile-wink"></i>
         </h2>
         <p className="mt-1">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
-          nostrum magni quos, placeat, impedit odit corrupti obcaecati sequi,
-          odio adipisci distinctio accusantium quas quibusdam maxime omnis animi
-          molestiae cum itaque. Lorem ipsum dolor, sit amet consectetur
-          adipisicing elit. Atque nostrum magni quos, placeat, impedit odit
-          corrupti obcaeca ti sequi, odio adipisci distinctio accusantium quas
-          quibusdam maxime omnis animi molestiae cum itaque.
+          I am a 17-year-old self taught developer. I began developing websites
+          at the age of 15, and I was astounded by the types of websites I could
+          create using only HTML/CSS. When the lockdown was forced, I decided to
+          make use of my time by creating video games for fun. I was able to
+          develop three very rudimentary working Android games. I'm very
+          passionate about game development, web development, machine learning,
+          and artificial intelligence. I've worked on few random automation
+          tasks, to help me carry out simple and basic tasks, such as web
+          scrapping, making tweets.
         </p>
         <p className="mt-1">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
-          nostrum magni quos, placeat, impedit odit corrupti obcaecati sequi,
-          odio adipisci distinctio accusantium quas quibusdam maxime omnis animi
-          molestiae cum itaque. Lorem ipsum dolor, sit amet consectetur
-          adipisicing elit. Atque nostrum magni quos, placeat, impedit odit
-          corrupti obcaeca ti sequi, odio adipisci distinctio accusantium quas
-          quibusdam maxime omnis animi molestiae cum itaque.
+          I intend to pursue a degree in computer science at the university
+          level. I'd also like to attend a machine learning and artificial
+          intelligence boot camp. Personally, I enjoy developing websites. I
+          think it's a lot of fun, and I'll keep making fun projects. I want to
+          build new and innovative websites from start to finish. My ambition is
+          to develop software or a web application that will assist users in
+          their daily life. For my side hobbies, I like to play rugby,
+          basketball <i class="fas fa-comment-alt-smile"></i>
         </p>
 
+        {/* INCLUDE RESUME LINK HERE */}
         <div className={styles.btn}>
           <a
             href="#"
-            className="btn bg-purple-700 p-2  rounded mt-5 text-1xl md:text-2xl pl-10 pr-10 transition-colors duration-300 hover:bg-purple-800 focus:outline-none focus:ring-2 focus:ring-purple-300 "
+            className="btn bg-purple-700 p-2  rounded mt-5 text-1xl md:text-2xl pl-10 pr-10 transition-colors duration-300 hover:bg-purple-900 focus:outline-none focus:ring-2 focus:ring-purple-300 "
           >
             Resume <i class="fas fa-arrow-alt-to-bottom"></i>
           </a>
-
-          {/* <a
-              href="#"
-              className="btn ml-2 bg-white text-black p-2 rounded mt-5 text-1xl md:text-2xl pl-10 pr-10 transition-colors duration-300 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-gray-900"
-            >
-              <i class="fas fa-download"></i> Resume
-            </a> */}
         </div>
       </section>
     </div>

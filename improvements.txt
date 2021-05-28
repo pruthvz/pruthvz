@@ -40,6 +40,13 @@ BLOGGING WEBSITE USING NEXT.JS AND SANITY !
 
 
 <div>
+    Contact me Page
+
+    - CONTACT ME NOW
+</div>
+
+
+<div>
     CHANGE LOREM TEXT 
 
    - BLOGS PAGE,
@@ -56,3 +63,6 @@ BLOGGING WEBSITE USING NEXT.JS AND SANITY !
     - My skills, languages i know
     - my likes and dislikes, hobbies
 </div>
+
+
+REPLACE "CLASS" with "className"

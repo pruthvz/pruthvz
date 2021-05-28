@@ -1,9 +1,13 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
+import Image from "next/image";
 
 // Components
 import Project from "../components/Projects";
 import Aboutme from "../components/Aboutme.js";
+
+// Images
 
 export default function Home() {
   return (
@@ -23,7 +27,9 @@ export default function Home() {
                 Pruthvi Mohanlal
               </p>
               <h2 className="mt-6 text-3xl font-bold text-white md:text-5xl">
-                Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit
+                Web Developer, Game Developer,
+                <br />
+                programmer at night.
               </h2>
 
               <div className="flex justify-center mt-8">
@@ -43,7 +49,7 @@ export default function Home() {
 
         {/* THESE CARDS CAN BE SIMPELY LOOPED  */}
         <section className="bg-gray-800 pt-5 pb-5" id={styles.skills}>
-          <div className="container" data-aos="fade-up">
+          <div className="container mx-auto" data-aos="fade-up">
             <div className="text-4xl font-bold pt-12 text-white text-center">
               <h1>Skills</h1>
             </div>
@@ -54,44 +60,45 @@ export default function Home() {
           >
             <div className="group max-w-2xl rounded-lg mx-auto p-10 md:p-16 transform transition duration-200 hover:scale-105 hover:shadow-md ring-2 ring-purple-200 hover:bg-white">
               <h1 className="text-2xl font-medium mb-2 text-white group-hover:text-black">
-                Let's build with Tailwind css
+                Web Developer
               </h1>
               <h2 className="font-medium text-sm text-purple-600 mb-4 uppercase tracking-wide">
-                Responsive web
+                Front-end and Back-end
               </h2>
               <p className="text-gray-400 group-hover:text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
-                dicta praesentium, sunt ipsa non amet ab fugiat illum distinctio
-                enim consequatur sapiente sequi iste ex rerum, quaerat accusamus
-                at dolorum!
+                I started my coding journey with web development, working my way
+                up from the basics to where I am now. I have four years of
+                experience in web development. I learned web development by
+                using all of the resources available on the internet.
               </p>
             </div>
             <div className="group max-w-2xl rounded-lg mx-auto p-10 md:p-16  transform transition duration-200 hover:scale-105 hover:shadow-md ring-2 ring-purple-200 hover:bg-white">
               <h1 className="text-2xl font-medium mb-2 text-white group-hover:text-black">
-                Let's build with Tailwind css
+                Game Developer
               </h1>
               <h2 className="font-medium text-sm text-purple-600 mb-4 uppercase tracking-wide">
-                Responsive web
+                Unity 2D & 3D
               </h2>
               <p className="text-gray-400 group-hover:text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
-                dicta praesentium, sunt ipsa non amet ab fugiat illum distinctio
-                enim consequatur sapiente sequi iste ex rerum, quaerat accusamus
-                at dolorum!
+                I began game development for fun; I wanted to make a few games
+                of my own and experiment with them. Using the Unity game engine,
+                I created a few desktop games. I then built three Android games,
+                which are available on Google Play.
               </p>
             </div>
             <div className="group max-w-2xl rounded-lg mx-auto p-10 md:p-16 transform transition duration-200 hover:scale-105 hover:shadow-md ring-2 ring-purple-200 hover:bg-white">
               <h1 className="text-2xl font-medium mb-2 text-white group-hover:text-black">
-                Let's build with Tailwind css
+                Python Automation
               </h1>
               <h2 className="font-medium text-sm text-purple-600 mb-4 uppercase tracking-wide">
-                Responsive web
+                Selenium
               </h2>
               <p className="text-gray-400 group-hover:text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
-                dicta praesentium, sunt ipsa non amet ab fugiat illum distinctio
-                enim consequatur sapiente sequi iste ex rerum, quaerat accusamus
-                at dolorum!
+                Python is a powerful programming language with numerous
+                libraries, including Selenium. I created Python scripts to
+                perform basic tasks such as opening Chrome and visiting
+                webpages. I also built a script that would connect me to my
+                online class automatically.
               </p>
             </div>
           </div>
@@ -121,125 +128,196 @@ export default function Home() {
             <div className="flex flex-wrap -m-4">
               <div className="xl:w-1/4  md:w-1/2 p-4">
                 <div className="bg-gray-900 bg-opacity-100 p-6 rounded-lg transform hover:scale-105 transition duration-300 cursor-auto">
-                  <img
+                  <Image
                     className="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://ichef.bbci.co.uk/news/976/cpsprodpb/12541/production/_118437057_hi065824880.jpg"
+                    src="/static/projectImg/spatepate.png"
                     alt="content"
+                    height={600}
+                    width={1000}
                   />
-                  <h3 className="tracking-widest text-purple-500 text-xs font-medium title-font">
-                    SUBTITLE
+                  <h3 className="tracking-widest text-purple-500 text-xs font-medium title-font mt-3">
+                    Programming Tutorials
                   </h3>
                   <h2 className="text-lg text-gray-200 font-medium title-font mb-4">
-                    Chichen Itza
+                    spatepate
                   </h2>
                   <p className="leading-relaxed text-base text-gray-400">
-                    Fingerstache flexitarian street art 8-bit waistcoat.
-                    Distillery hexagon disrupt edison bulbche.
-                  </p>
-                  {/* CODE ICONS */}
-                  <div className="row pt-2 text-purple-500 text-lg ">
-                    <a href="#">
-                      <i className="fas fa-globe transform transition duration-300 hover:text-purple-200 hover:scale-110"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fas fa-code pl-2 transform transition duration-300 hover:text-purple-200 hover:scale-110"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="xl:w-1/4 md:w-1/2 p-4">
-                <div className="bg-gray-900 bg-opacity-100 p-6 rounded-lg transform hover:scale-105 transition duration-300 cursor-auto">
-                  <img
-                    className="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://ichef.bbci.co.uk/news/976/cpsprodpb/12541/production/_118437057_hi065824880.jpg"
-                    alt="content"
-                  />
-                  <h3 className="tracking-widest text-purple-500 text-xs font-medium title-font">
-                    SUBTITLE
-                  </h3>
-                  <h2 className="text-lg text-gray-200 font-medium title-font mb-4">
-                    Chichen Itza
-                  </h2>
-                  <p className="leading-relaxed text-base text-gray-400">
-                    Fingerstache flexitarian street art 8-bit waistcoat.
-                    Distillery hexagon disrupt edison bulbche.
-                  </p>
-                  {/* CODE ICONS */}
-                  <div className="row pt-2 text-purple-500 text-lg ">
-                    <a href="#">
-                      <i className="fas fa-globe transform transition duration-300 hover:text-purple-200 hover:scale-110"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fas fa-code pl-2 transform transition duration-300 hover:text-purple-200 hover:scale-110"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="xl:w-1/4 md:w-1/2 p-4">
-                <div className="bg-gray-900 bg-opacity-100 p-6 rounded-lg transform hover:scale-105 transition duration-300 cursor-auto">
-                  <img
-                    className="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://ichef.bbci.co.uk/news/976/cpsprodpb/12541/production/_118437057_hi065824880.jpg"
-                    alt="content"
-                  />
-                  <h3 className="tracking-widest text-purple-500 text-xs font-medium title-font">
-                    SUBTITLE
-                  </h3>
-                  <h2 className="text-lg text-gray-200 font-medium title-font mb-4">
-                    Chichen Itza
-                  </h2>
-                  <p className="leading-relaxed text-base text-gray-400">
-                    Fingerstache flexitarian street art 8-bit waistcoat.
-                    Distillery hexagon disrupt edison bulbche.
-                  </p>
-                  {/* CODE ICONS */}
-                  <div className="row pt-2 text-purple-500 text-lg ">
-                    <a href="#">
-                      <i className="fas fa-globe transform transition duration-300 hover:text-purple-200 hover:scale-110"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fas fa-code pl-2 transform transition duration-300 hover:text-purple-200 hover:scale-110"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="xl:w-1/4 md:w-1/2 p-4">
-                <div className="bg-gray-900 bg-opacity-100 p-6 rounded-lg transform hover:scale-105 transition duration-300 cursor-auto">
-                  <img
-                    className="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://ichef.bbci.co.uk/news/976/cpsprodpb/12541/production/_118437057_hi065824880.jpg"
-                    alt="content"
-                  />
-                  <h3 className="tracking-widest text-purple-500 text-xs font-medium title-font">
-                    SUBTITLE
-                  </h3>
-                  <h2 className="text-lg text-gray-200 font-medium title-font mb-4">
-                    Chichen Itza
-                  </h2>
-                  <p className="leading-relaxed text-base text-gray-400">
-                    Fingerstache flexitarian street art 8-bit waistcoat.
-                    Distillery hexagon disrupt edison bulbche.
+                    I created spatepate for developers who are looking for
+                    videos on how to code. I included the most of programming
+                    languages and gathered beginner friendly and advanced
+                    tutorials.
                   </p>
                   {/* hashtags if they look bad delete it */}
                   <div class="mt-3">
                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      #photography
+                      #React.js
                     </span>
                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      #travel
+                      #Bootstrap
                     </span>
                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      #fall
+                      #Tutorials
+                    </span>
+                  </div>
+                  {/* hashtags */}
+                  {/* CODE ICONS */}
+                  <div className="row pt-2 text-purple-500 text-lg ">
+                    <a
+                      href="https://pruthvz.github.io/spatepate/"
+                      target="_blank"
+                    >
+                      <i className="fas fa-globe transform transition duration-300 hover:text-purple-200 hover:scale-110"></i>
+                    </a>
+                    <a
+                      href="https://github.com/pruthvz/spatepate"
+                      target="_blank"
+                    >
+                      <i className="fas fa-code pl-2 transform transition duration-300 hover:text-purple-200 hover:scale-110"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="xl:w-1/4 md:w-1/2 p-4">
+                <div className="bg-gray-900 bg-opacity-100 p-6 rounded-lg transform hover:scale-105 transition duration-300 cursor-auto">
+                  <Image
+                    className="h-40 rounded w-full object-cover object-center mb-6"
+                    src="/static/projectImg/oopsdev.png"
+                    alt="content"
+                    height={600}
+                    width={1000}
+                  />
+                  <h3 className="tracking-widest text-purple-500 text-xs font-medium title-font mt-3">
+                    Useful Developer Resources
+                  </h3>
+                  <h2 className="text-lg text-gray-200 font-medium title-font mb-4">
+                    ooopsDev.com
+                  </h2>
+                  <p className="leading-relaxed text-base text-gray-400">
+                    ooopsDev.com began as a joke, but I realized that this kind
+                    of website would be helpful to more than just me. The
+                    website's contains front-end and back-end resources.
+                  </p>
+                  {/* hashtags if they look bad delete it */}
+                  <div class="mt-3">
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                      #Bootstrap
+                    </span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                      #React.js
+                    </span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                      #JavaScript
+                    </span>
+                  </div>
+                  {/* hashtags */}
+                  {/* CODE ICONS */}
+                  <div className="row pt-2 text-purple-500 text-lg">
+                    <a href="https://ooopsdev.com/#/" target="_blank">
+                      <i className="fas fa-globe transform transition duration-300 hover:text-purple-200 hover:scale-110"></i>
+                    </a>
+                    <a
+                      href="https://github.com/pruthvz/project-atlas"
+                      target="_blank"
+                    >
+                      <i className="fas fa-code pl-2 transform transition duration-300 hover:text-purple-200 hover:scale-110"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="xl:w-1/4 md:w-1/2 p-4">
+                <div className="bg-gray-900 bg-opacity-100 p-6 rounded-lg transform hover:scale-105 transition duration-300 cursor-auto">
+                  <Image
+                    className="h-40 rounded w-full object-cover object-center mb-6"
+                    src="/static/projectImg/diutravels.png"
+                    alt="content"
+                    height={600}
+                    width={1000}
+                  />
+                  <h3 className="tracking-widest text-purple-500 text-xs font-medium title-font mt-3">
+                    Travel Website
+                  </h3>
+                  <h2 className="text-lg text-gray-200 font-medium title-font mb-4">
+                    Diu Travels
+                  </h2>
+                  <p className="leading-relaxed text-base text-gray-400">
+                    My first project for a client was Diu Travels. It's a static
+                    travel website that displays all of the destinations that my
+                    customer requested. For the website, I utilized Material
+                    Design Bootstrap.
+                  </p>
+                  {/* hashtags if they look bad delete it */}
+                  <div class="mt-3">
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                      #HTML/CSS
+                    </span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                      #MDB
+                    </span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                      #JavaScript
+                    </span>
+                  </div>
+                  {/* hashtags */}
+                  {/* CODE ICONS */}
+                  <div className="row pt-2 text-purple-500 text-lg ">
+                    <a href="https://diutravels.com/" target="_blank">
+                      <i className="fas fa-globe transform transition duration-300 hover:text-purple-200 hover:scale-110"></i>
+                    </a>
+                    <a
+                      href="https://github.com/pruthvz/updatedTravelsite"
+                      target="_blank"
+                    >
+                      <i className="fas fa-code pl-2 transform transition duration-300 hover:text-purple-200 hover:scale-110"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="xl:w-1/4 md:w-1/2 p-4">
+                <div className="bg-gray-900 bg-opacity-100 p-6 rounded-lg transform hover:scale-105 transition duration-300 cursor-auto">
+                  <Image
+                    className="h-40 rounded w-full object-cover object-center mb-6"
+                    src="/static/projectImg/weee.png"
+                    alt="content"
+                    height={600}
+                    width={1000}
+                  />
+                  <h3 className="tracking-widest text-purple-500 text-xs font-medium title-font mt-3">
+                    Next.js Project
+                  </h3>
+                  <h2 className="text-lg text-gray-200 font-medium title-font mb-4">
+                    Project Weee
+                  </h2>
+                  <p className="leading-relaxed text-base text-gray-400">
+                    This was a fun experiment that I developed to learn the
+                    fundamentals of Next.js before starting a new project with
+                    Next.js.
+                  </p>
+                  {/* hashtags if they look bad delete it */}
+                  <div class="mt-3">
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                      #Next.js
+                    </span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                      #Tailwind CSS
+                    </span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                      #React.js
+                    </span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                      #Server-side-rendering
                     </span>
                   </div>
                   {/* hashtags */}
 
                   {/* CODE ICONS */}
                   <div className="row pt-2 text-purple-500 text-lg ">
-                    <a href="#">
+                    <a href="https://project-weee.vercel.app/" target="_blank">
                       <i className="fas fa-globe transform transition duration-300 hover:text-purple-200 hover:scale-110"></i>
                     </a>
-                    <a href="#">
+                    <a
+                      href="https://github.com/pruthvz/project-weee"
+                      target="_blank"
+                    >
                       <i className="fas fa-code pl-2 transform transition duration-300 hover:text-purple-200 hover:scale-110"></i>
                     </a>
                   </div>
@@ -352,27 +430,26 @@ export default function Home() {
               Blogs
             </p>
             <h2 className="mt-6 text-3xl font-bold text-white md:text-5xl">
-              Check out my blogs. <br /> Tech, coding and books.
+              Check out my blogs on <br /> Tech, coding and books.
             </h2>
 
             <div className="flex justify-center mt-8">
-              <a
-                className="px-8 py-2 text-lg font-medium text-white transition-colors duration-300 transform bg-purple-600 rounded hover:bg-purple-800"
-                href="#"
-              >
-                Read Blogs
-              </a>
+              <Link href="/blogs">
+                <a className="px-8 py-2 text-lg font-medium text-white transition-colors duration-300 transform bg-purple-600 rounded hover:bg-purple-800">
+                  Read Blogs
+                </a>
+              </Link>
             </div>
           </div>
         </section>
 
         <section id={styles.services} className="bg-gray-800">
-          <div className="container">
+          <div className="container mx-auto">
             <div className="text-4xl font-bold pt-16 pb-5 text-white text-center">
               <h1>Languages, Frameworks I know.</h1>
             </div>
           </div>
-          <div className="container pt-10">
+          <div className="container pt-10 mx-auto">
             <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
               {/* for loop */}
               {Project.languages.map(function (lang, index) {
@@ -395,6 +472,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+
         <script type="text/javascript">AOS.init();</script>
       </div>
     </div>

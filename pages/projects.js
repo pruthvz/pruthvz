@@ -40,7 +40,7 @@ function projects() {
             {Project.myProjects.map(function (project, index) {
               return (
                 <div
-                  className="xl:w-1/4  md:w-1/2 p-4"
+                  className="xl:w-1/3  md:w-1/2 p-4"
                   data-aos="fade-up"
                   data-aos-offset="100"
                 >
@@ -50,6 +50,7 @@ function projects() {
                       src={project.img}
                       alt={project.imgAlt}
                     />
+
                     <h3 className="tracking-widest text-purple-500 text-xs font-medium title-font">
                       {project.subTitle}
                     </h3>
@@ -60,24 +61,25 @@ function projects() {
                       {project.desc}
                     </p>
                     {/* hashtags if they look bad delete it */}
-                    <div class="mt-3">
+                    <div class="mt-3 mb-2">
                       <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                        #Django
+                        {project.hash1}
                       </span>
                       <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                        #Tailwind
+                        {project.hash2}
                       </span>
                       <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                        #Python
+                        {project.hash3}
                       </span>
                     </div>
                     {/* hashtags */}
+                    <p className={project.margin}></p>
                     {/* CODE ICONS */}
-                    <div className="row pt-2 text-purple-500 text-lg ">
-                      <a href={project.website}>
+                    <div className="row pt-2 text-purple-500 text-lg">
+                      <a href={project.website} target="_blank">
                         <i className="fas fa-globe transform transition duration-300 hover:text-purple-200 hover:scale-110"></i>
                       </a>
-                      <a href={project.github}>
+                      <a href={project.github} target="_blank">
                         <i className="fas fa-code pl-2 transform transition duration-300 hover:text-purple-200 hover:scale-110"></i>
                       </a>
                     </div>
