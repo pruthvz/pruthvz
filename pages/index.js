@@ -43,6 +43,7 @@ export default function Home() {
             </div>
           </section>
         </header>
+
         {/* ABOUT ME BELOW */}
         <Aboutme></Aboutme>
         {/* ABOUT ME ABOVE */}
@@ -83,7 +84,14 @@ export default function Home() {
                 I began game development for fun; I wanted to make a few games
                 of my own and experiment with them. Using the Unity game engine,
                 I created a few desktop games. I then built three Android games,
-                which are available on Google Play.
+                which are available on{" "}
+                <a
+                  href="https://play.google.com/store/apps/developer?id=pruthvi"
+                  target="_blank"
+                  className="text-gray-300 group-hover:text-purple-600"
+                >
+                  Google Play.
+                </a>
               </p>
             </div>
             <div className="group max-w-2xl rounded-lg mx-auto p-10 md:p-16 transform transition duration-200 hover:scale-105 hover:shadow-md ring-2 ring-purple-200 hover:bg-white">
@@ -118,10 +126,13 @@ export default function Home() {
                 <div className="h-1 w-20 bg-purple-500 rounded"></div>
               </div>
               <p className="lg:w-1/2 w-full leading-relaxed text-gray-400 pr-10">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Accusantium magni fugit iste natus rerum repellat deleniti. Nam
-                sint perferendis, sit magnam odit laborum reprehenderit quo
-                tempore, eos saepe exercitationem autem!
+                I have worked on multiple projects, some which includes client
+                projects. I have done many personal projects as well, I am also
+                working on few projects at the moment as well. I have included
+                my project's website url, as well as the code for it. Some
+                client projects, I may not be able to provide the code base,
+                because its more private. Click on "View all Projects" for more
+                amazing and interesting projects.
               </p>
             </div>
             {/* start of cards */}

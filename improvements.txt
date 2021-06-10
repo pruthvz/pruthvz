@@ -10,27 +10,6 @@ BLOGGING WEBSITE USING NEXT.JS AND SANITY !
 </div>
 
 <div>
-    <h6>Things to include in home page</h6>
-    <ul>
-        <li>Start with the basics</li>
-        <li>Skills set</li>
-        <li>My personal projects</li>
-        <li>Link to github projects (show code)</li>
-        <li>Link to codepens</li>
-        <li>Social media links</li>
-        <li>Open source projects</li>
-        <li>Links to blog</li>
-        <li>Likes and dislikes</li>
-        <li>DOGECOIN TO THE MOON</li>
-    <ul>
-</div>
-
-<div>
-    <h5>Dogecoin to the moon !</h5>
-</div>
-
-
-<div>
     About me 
 
     - About me,
@@ -54,6 +33,9 @@ BLOGGING WEBSITE USING NEXT.JS AND SANITY !
 
    - PROJECTS PAGE,
     - ADD PROJECTS
+    - ADD TAILWIND PROJECTS
+    - PYTHON PROJECTS
+    
 
    - HOMEPAGE,
     - REMOVE LOREM
@@ -62,7 +44,14 @@ BLOGGING WEBSITE USING NEXT.JS AND SANITY !
     - REMOVE LOREM
     - My skills, languages i know
     - my likes and dislikes, hobbies
+    - RESPONSIVE
 </div>
 
 
 REPLACE "CLASS" with "className"
+
+
+
+<div>
+    <h5>Dogecoin to the moon !</h5>
+</div>

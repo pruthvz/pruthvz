@@ -1,13 +1,23 @@
+import Link from "next/link";
+
 const Footer = () => {
   return (
     <div className="bg-gray-900">
       <footer className="flex flex-wrap items-center justify-between p-3 m-auto">
         <div className="container mx-auto flex flex-col flex-wrap items-center justify-between pt-2 pb-3">
           <ul className="flex mx-auto text-white text-center">
-            <li className="p-2 cursor-pointer hover:underline">Home</li>
-            <li className="p-2 cursor-pointer hover:underline">Blogs</li>
-            <li className="p-2 cursor-pointer hover:underline">Projects</li>
-            <li className="p-2 cursor-pointer hover:underline">About</li>
+            <Link href="/">
+              <li className="p-2 cursor-pointer hover:underline">Home</li>
+            </Link>
+            <Link href="/blogs">
+              <li className="p-2 cursor-pointer hover:underline">Blogs</li>
+            </Link>
+            <Link href="/projects">
+              <li className="p-2 cursor-pointer hover:underline">Projects</li>
+            </Link>
+            <Link href="/about">
+              <li className="p-2 cursor-pointer hover:underline">About</li>
+            </Link>
           </ul>
           <ul className="flex mx-auto text-white text-center">
             <li className="p-2 cursor-pointer">

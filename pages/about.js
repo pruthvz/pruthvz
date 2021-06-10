@@ -39,7 +39,7 @@ const About = () => {
       <Aboutme></Aboutme>
 
       <section id="progress">
-        <div class="container bg-gray-700 mx-auto w-full h-full">
+        <div class="bg-gray-700 mx-auto w-full h-full">
           {/* <div className="text-3xl mb-5 font-bold pt-12 text-white text-center">
             <h1>My Progress</h1>
           </div> */}

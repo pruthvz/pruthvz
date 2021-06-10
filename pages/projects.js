@@ -1,10 +1,16 @@
 import React from "react";
+import Head from "next/head";
+
 // Components
 import Project from "../components/Projects";
 
 function projects() {
   return (
     <div>
+      <Head>
+        <title>Projects | Pruthvi Mohanlal</title>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      </Head>
       <header className="bg-gray-800" x-data="{ isOpen: false }">
         <section
           className="flex items-center justify-center"
@@ -88,6 +94,65 @@ function projects() {
               );
             })}
             {/* end for loop */}
+          </div>
+        </div>
+      </section>
+
+      <section id="games" className="bg-gray-800 dark:bg-gray-900 pb-14 ">
+        <div class=" py-6 flex flex-col justify-center sm:py-20 ">
+          <div className="container mx-auto pb-14" data-aos="fade-up">
+            <div className="text-4xl font-bold pt-12 text-white text-center">
+              <h1>My Mobile Games</h1>
+            </div>
+          </div>
+          <div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-3 px-4">
+            <div class=" group bg-gray-900 border-purple-400 dark:bg-gray-800 bg-opacity-95 border-opacity-60 | p-4 border-solid rounded-3xl border-2 | flex justify-around cursor-pointer | hover:bg-purple-400 dark:hover:bg-indigo-600 hover:border-transparent | transition-colors duration-500">
+              <img
+                class="w-16 h-16 object-cover rounded-3xl"
+                src="https://play-lh.googleusercontent.com/T8t5IS1U9OdmAz_abEG3EEFICAGK-ACPmffMyuGGTkbO_PYnhAi_MPdDNybMW0ax-1GI=s180-rw"
+                alt=""
+              />
+              <div class="flex flex-col justify-center">
+                <p class="text-gray-100 dark:text-gray-300 font-semibold">
+                  Tevoo
+                </p>
+                <p class="text-gray-300 dark:text-gray-100 text-justify font-semibold group-hover:text-gray-100">
+                  Installs : 10+
+                </p>
+              </div>
+            </div>
+
+            <div class="group bg-gray-900 border-purple-400 dark:bg-gray-800 bg-opacity-95 border-opacity-60 | p-4 border-solid rounded-3xl border-2 | flex justify-around cursor-pointer | hover:bg-purple-400 dark:hover:bg-indigo-600 hover:border-transparent | transition-colors duration-500">
+              <img
+                class="w-16 h-16 object-cover rounded-3xl"
+                src="https://play-lh.googleusercontent.com/vNdn7evHek1LW9miGRZXou4VotIpyDoYk8PWB_fO4XZaNqTYvaUpeD0V5pqG9y3_aQ=s180-rw"
+                alt=""
+              />
+              <div class="flex flex-col justify-center">
+                <p class="text-gray-100 dark:text-gray-300 font-semibold">
+                  Precise Bolter
+                </p>
+                <p class="text-gray-300 dark:text-gray-100 text-justify font-semibold group-hover:text-gray-100">
+                  Installs : 10+
+                </p>
+              </div>
+            </div>
+
+            <div class="group bg-gray-900 border-purple-400 dark:bg-gray-800 bg-opacity-95 border-opacity-60 | p-4 border-solid rounded-3xl border-2 | flex justify-around cursor-pointer | hover:bg-purple-400 dark:hover:bg-indigo-600 hover:border-transparent | transition-colors duration-500">
+              <img
+                class="w-16 h-16 object-cover rounded-3xl"
+                src="https://play-lh.googleusercontent.com/KyCtXP11MeFN8j0zDIv_7SbJ1JuMzD7YIzkPhtFTfJevt2Sf_9Lp0w-Q1dZiAJ_4ts73=s180-rw"
+                alt=""
+              />
+              <div class="flex flex-col justify-center">
+                <p class="text-gray-100 dark:text-gray-300 font-semibold">
+                  Dazzled Dot
+                </p>
+                <p class="text-gray-300 dark:text-gray-100 text-justify font-semibold group-hover:text-gray-100">
+                  Installs : 5+
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
