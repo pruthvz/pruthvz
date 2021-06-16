@@ -1,5 +1,9 @@
 BLOGGING WEBSITE USING NEXT.JS AND SANITY !
 
+TODO 
+- ADD THE TIMELINE IN ABOUT ME
+
+
 <h1>Things to apply to this project!</h1>
 <div>
 <h6>Stylings</h6>
