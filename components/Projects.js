@@ -156,7 +156,7 @@ const myProjects = [
     title: "Ionics Website",
     subTitle: "React.js",
     desc: "This is a fork of the electron application, that I created, and since it was running with React.js I decided to publish the website on GitHub pages, so you can review it. The API is the same. What is best about Electron.js and React.js is that I can run both on a webpage or within the Electron window.",
-    img: "/static/projectImg/ionics-webpage.PNG",
+    img: "/static/projectImg/ionics-webpage.png",
     imgAlt: "ionics image",
     github: "https://github.com/pruthvz/project-ionics",
     website: "https://pruthvz.github.io/project-ionics/",
