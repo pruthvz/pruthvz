@@ -39,6 +39,7 @@ const Blogs = ({ posts }) => {
     "Bootstrap",
     "TailwindCSS",
     "Material Design Bootstrap",
+    "Flask",
   ];
 
   return (
@@ -71,13 +72,7 @@ const Blogs = ({ posts }) => {
         </section>
       </header>
 
-      <div className={styles.feed}>
-        <h1
-          className="font-semibold mx-auto rounded-pill p-2 text-center text-sm font-normal  mt-0 mb-2 bg-gray-800 text-white transition-colors duration-300 hover:bg-purple-600"
-          id="subTitle"
-        >
-          LATEST BLOG POSTS
-        </h1>
+      <div className="bg-gray-700 p-0 pt-10 md:p-5">
         {mappedPosts.length ? (
           mappedPosts.map((p, index) => (
             <div
@@ -87,7 +82,7 @@ const Blogs = ({ posts }) => {
               onClick={() => router.push(`/post/${p.slug.current}`)}
             >
               <div
-                className="max-w-4xl mx-auto  overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800 hover:shadow-lg"
+                className="max-w-7xl mx-auto overflow-hidden bg-gray-800 rounded shadow-md dark:bg-gray-800 hover:shadow-lg"
                 id="blogCard"
               >
                 <img
@@ -98,20 +93,20 @@ const Blogs = ({ posts }) => {
 
                 <div className="p-6">
                   <div>
-                    <span className="text-xs font-medium text-blue-600 uppercase dark:text-blue-400">
+                    <span className="text-xs font-medium text-purple-600 uppercase dark:text-blue-400">
                       Technology
                     </span>
                     <a
                       href="#"
-                      className="block mt-2 text-2xl font-semibold text-gray-800 dark:text-white hover:text-gray-600 hover:underline"
+                      className="block mt-2 text-2xl font-semibold text-gray-100 dark:text-white hover:text-purple-400 hover:underline"
                     >
                       {p.title}
                     </a>
                     <p
-                      className="mt-2 text-sm text-gray-600 dark:text-gray-400 "
+                      className="mt-2 text-sm text-gray-400 dark:text-gray-400 "
                       id="blogContent"
                     >
-                      <BlockContent className="max-w-xs" blocks={p.body} />
+                      <BlockContent blocks={p.body} />
                     </p>
                   </div>
 
@@ -125,12 +120,12 @@ const Blogs = ({ posts }) => {
                         />
                         <a
                           href="#"
-                          className="mx-2 font-semibold text-gray-700 dark:text-gray-200"
+                          className="mx-2 font-semibold text-gray-400  dark:text-gray-200"
                         >
                           Pruthvi Mohanlal
                         </a>
                       </div>
-                      <span className="mx-1 text-xs text-gray-600 dark:text-gray-300">
+                      <span className="mx-1 text-xs text-gray-400 dark:text-gray-300">
                         {p._createdAt}
                       </span>
                     </div>
@@ -145,8 +140,8 @@ const Blogs = ({ posts }) => {
           <> No Posts Yet </>
         )}
       </div>
-      <div className="p-1">
-        <div className="mb-5 max-w-md mx-auto bg-gray-800  rounded-xl shadow-md overflow-hidden md:max-w-6xl">
+      <div className="pb-4 bg-gray-700 md:p-10 p-2">
+        <div className=" max-w-md mx-auto bg-gray-800  rounded-xl shadow-md overflow-hidden md:max-w-full ">
           <div className="md:flex">
             <div className="p-8">
               <div className="uppercase tracking-wide text-lg text-white font-bold">
@@ -155,7 +150,7 @@ const Blogs = ({ posts }) => {
               {hashtags.map(function (tag, index) {
                 return (
                   <span
-                    className="mt-2 inline-flex items-center justify-center px-2 py-1 mr-2 text-xs font-bold leading-none text-white bg-purple-600 rounded-full"
+                    className="mt-2 inline-flex items-center justify-center px-2 py-1 mr-2 text-sm font-bold leading-none text-white bg-purple-600 rounded-full"
                     key={index}
                   >
                     {tag}

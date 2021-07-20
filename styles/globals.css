@@ -11,8 +11,8 @@
 }
 
 #blogContent {
-  height: 60px;
-  width: 840px;
+  /* height: 60px; */
+  /* width: 840px; */
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

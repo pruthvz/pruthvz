@@ -124,7 +124,7 @@ const myProjects = [
     hash1: "#React.js",
     hash2: "#API",
     hash3: "#Movie App",
-    margin: "mb-2",
+    margin: "mb-8",
   },
   {
     title: "Code Text-Editor",
@@ -178,6 +178,19 @@ const myProjects = [
     hash3: "#TailwindCSS",
     margin: "mb-0",
   },
+  {
+    title: "Flask Todo Application",
+    subTitle: "Flask",
+    desc: "This website was really fun to build, since I was learning flask I wanted to get to know the basics of flask, this includes the basic crud operations. I used TailwindCSS to do the styling for the front-end design. I plan to create a full functional application using flask.",
+    img: "/static/projectImg/flasktodo.png",
+    imgAlt: "ionics image",
+    github: "https://github.com/pruthvz/flask-todo",
+    website: "#website-not-hosted",
+    hash1: "#Flask",
+    hash2: "#TailwindCSS",
+    hash3: "#Python",
+    margin: "mb-2",
+  },
 ];
 
 const languages = [
@@ -224,6 +237,14 @@ const languages = [
   {
     language: "Bootstrap",
     desc: "Material Design Bootstrap and Bootstrap",
+  },
+  {
+    language: "Flask",
+    desc: "Python is a micro web framework written in Python",
+  },
+  {
+    language: "Python Selenium",
+    desc: "Selenium is an open-source web-based automation tool.",
   },
 ];
 

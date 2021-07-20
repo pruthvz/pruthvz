@@ -15,7 +15,7 @@ function Aboutme() {
           I build things on the web for jokes. <i class="fas fa-smile-wink"></i>
         </h2>
         <p className="mt-1">
-          I am a 17-year-old self taught developer. I began developing websites
+          I am a 18-year-old self taught developer. I began developing websites
           at the age of 15, and I was astounded by the types of websites I could
           create using only HTML/CSS. When the lockdown was forced, I decided to
           make use of my time by creating video games for fun. I was able to
