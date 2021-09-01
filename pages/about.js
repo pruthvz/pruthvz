@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div>
       <Head>
-        <title>About me | Portfolio</title>
+        <title>About me | Pruthvi Mohanlal</title>
       </Head>
       <header className="bg-gray-800" x-data="{ isOpen: false }">
         <section

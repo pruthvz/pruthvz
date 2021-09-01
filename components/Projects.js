@@ -191,6 +191,19 @@ const myProjects = [
     hash3: "#Python",
     margin: "mb-2",
   },
+  {
+    title: "React Skeleton Loading Experiment",
+    subTitle: "React.js",
+    desc: "I wanted to try this skeleton loading, with react because I have seen alot of big websites such as YouTube, Facebook, Instagram, LinkedIn have these kind of loading content. It was alot of fun creating this skeleton loading with pure css. I intend to use this inside a project.",
+    img: "/static/projectImg/react-skeleton.png",
+    imgAlt: "react skeleton loading.",
+    github: "https://github.com/pruthvz/react-skeleton-loading",
+    website: "https://pruthvz.github.io/react-skeleton-loading/",
+    hash1: "#React.js",
+    hash2: "#Skeleton Loading",
+    hash3: "#JSON",
+    margin: "mb-2",
+  },
 ];
 
 const languages = [
