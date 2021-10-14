@@ -3,11 +3,11 @@
 
 <p align="left"> <a href="https://twitter.com/justpruthvi" target="blank"><img src="https://img.shields.io/twitter/follow/justpruthvi?logo=twitter&style=for-the-badge" alt="justpruthvi" /></a> </p>
  
-- 🎯 I’m Currently focusing on  Verselet.
+- 🎯 I’m Currently focusing on  Bucker.
 
 - 🔭 I’m currently working on **my portfolio.**
 
-- 🌱 I’m currently learning **Next.js, Django, TailwindCSS and some Machine Learning.**
+- 🌱 I’m currently learning **Next.js, Flask, TailwindCSS and some Machine Learning.**
 
 - 🤝 I’m looking for help with **music app**
 
