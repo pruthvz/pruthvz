@@ -1,23 +1,17 @@
 <h1 align="center">Hi 👋, I'm Pruthvi</h1>
 <h3 align="center">Creative web developer dedicated to developing and optimizing interactive, user-friendly, and feature-rich websites.</h3>
 
-<p align="left"> <a href="https://twitter.com/justpruthvi" target="blank"><img src="https://img.shields.io/twitter/follow/justpruthvi?logo=twitter&style=for-the-badge" alt="justpruthvi" /></a> </p>
- 
-- 🎯 I’m Currently focusing on  Bucker.
+- 🎯 I’m Currently focusing on Bucker.
 
 - 🔭 I’m currently working on **my portfolio.**
 
 - 🌱 I’m currently learning **Next.js, Flask, TailwindCSS and some Machine Learning.**
 
-- 🤝 I’m looking for help with **music app**
+- 🤝 I’m looking for help with **Bucker Inc.**
 
 - 👨‍💻 All of my projects are available at [..](..)
 
 - 💬 Ask me about **JavaScript, React, Bootstrap, HTML/CSS.**
-
-- 📫 How to reach me **pruthvimohanlal10@gmail.com**
-
-- 📄 Know about my experiences [...](...)
 
 - ⚡ Fun fact **I start every new project with "Hello World."**
 
