@@ -209,14 +209,14 @@ export default function Home() {
                     website's contains front-end and back-end resources.
                   </p>
                   {/* hashtags if they look bad delete it */}
-                  <div class="mt-3">
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  <div className="mt-3">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                       #Bootstrap
                     </span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                       #React.js
                     </span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                       #JavaScript
                     </span>
                   </div>
@@ -257,14 +257,14 @@ export default function Home() {
                     Design Bootstrap.
                   </p>
                   {/* hashtags if they look bad delete it */}
-                  <div class="mt-3">
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  <div className="mt-3">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                       #HTML/CSS
                     </span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                       #MDB
                     </span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                       #JavaScript
                     </span>
                   </div>
@@ -304,17 +304,17 @@ export default function Home() {
                     Next.js.
                   </p>
                   {/* hashtags if they look bad delete it */}
-                  <div class="mt-3">
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  <div className="mt-3">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                       #Next.js
                     </span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                       #Tailwind CSS
                     </span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                       #React.js
                     </span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                       #Server-side-rendering
                     </span>
                   </div>
@@ -349,23 +349,23 @@ export default function Home() {
 
         {/* github  and codepen links */}
         <section className="bg-gray-800 pt-10 pb-10" id={styles.users}>
-          <div class="flex items-center justify-center">
-            <div class="p-4 rounded w-full">
+          <div className="flex items-center justify-center">
+            <div className="p-4 rounded w-full">
               <div
-                class="md:grid md:grid-cols-3 md:gap-4 space-y-4 md:space-y-0 mt-4 "
+                className="md:grid md:grid-cols-3 md:gap-4 space-y-4 md:space-y-0 mt-4 "
                 data-aos="fade-up"
               >
-                <div class="group shadow border rounded-lg bg-gray-800 hover:bg-gray-100 transition duration-200">
-                  <div class="flex items-center space-x-4 p-4">
-                    <div class="flex items-center p-4 bg-purple-600 text-white rounded-lg">
-                      <i class="fab fa-github "></i>
+                <div className="group shadow border rounded-lg bg-gray-800 hover:bg-gray-100 transition duration-200">
+                  <div className="flex items-center space-x-4 p-4">
+                    <div className="flex items-center p-4 bg-purple-600 text-white rounded-lg">
+                      <i className="fab fa-github "></i>
                     </div>
-                    <div class="flex-1">
-                      <p class="text-gray-300 font-semibold group-hover:text-gray-500">
+                    <div className="flex-1">
+                      <p className="text-gray-300 font-semibold group-hover:text-gray-500">
                         GitHub Username
                       </p>
-                      <div class="flex items-baseline space-x-4">
-                        <h2 class="text-2xl font-semibold text-gray-300 group-hover:text-gray-700">
+                      <div className="flex items-baseline space-x-4">
+                        <h2 className="text-2xl font-semibold text-gray-300 group-hover:text-gray-700">
                           pruthvz
                         </h2>
                       </div>
@@ -373,22 +373,22 @@ export default function Home() {
                   </div>
                   <a
                     href="#"
-                    class="block p-3 text-lg font-semibold bg-purple-50  text-purple-800 hover:bg-purple-100  cursor-pointer"
+                    className="block p-3 text-lg font-semibold bg-purple-50  text-purple-800 hover:bg-purple-100  cursor-pointer"
                   >
                     View repositories
                   </a>
                 </div>
-                <div class="group shadow border rounded-lg bg-gray-800 hover:bg-gray-100 transition duration-200">
-                  <div class="flex items-center space-x-4 p-4">
-                    <div class="flex items-center p-4 bg-purple-600 text-white rounded-lg">
-                      <i class="fab fa-codepen"></i>
+                <div className="group shadow border rounded-lg bg-gray-800 hover:bg-gray-100 transition duration-200">
+                  <div className="flex items-center space-x-4 p-4">
+                    <div className="flex items-center p-4 bg-purple-600 text-white rounded-lg">
+                      <i className="fab fa-codepen"></i>
                     </div>
-                    <div class="flex-1">
-                      <p class="text-gray-300 font-semibold group-hover:text-gray-500">
+                    <div className="flex-1">
+                      <p className="text-gray-300 font-semibold group-hover:text-gray-500">
                         Codepen Username
                       </p>
-                      <div class="flex items-baseline space-x-4">
-                        <h2 class="text-2xl font-semibold text-gray-300 group-hover:text-gray-700">
+                      <div className="flex items-baseline space-x-4">
+                        <h2 className="text-2xl font-semibold text-gray-300 group-hover:text-gray-700">
                           pruthvi10
                         </h2>
                       </div>
@@ -397,22 +397,22 @@ export default function Home() {
                   <a
                     href="https://codepen.io/pruthvi10"
                     target="_blank"
-                    class="block p-3 text-lg font-semibold bg-purple-50  text-purple-800 hover:bg-purple-100  cursor-pointer"
+                    className="block p-3 text-lg font-semibold bg-purple-50  text-purple-800 hover:bg-purple-100  cursor-pointer"
                   >
                     View Pens
                   </a>
                 </div>
-                <div class="group shadow border rounded-lg bg-gray-800 hover:bg-gray-100 transition duration-200">
-                  <div class="flex items-center space-x-4 p-4">
-                    <div class="flex items-center p-4 bg-purple-600 text-white rounded-lg">
-                      <i class="fab fa-twitter"></i>
+                <div className="group shadow border rounded-lg bg-gray-800 hover:bg-gray-100 transition duration-200">
+                  <div className="flex items-center space-x-4 p-4">
+                    <div className="flex items-center p-4 bg-purple-600 text-white rounded-lg">
+                      <i className="fab fa-twitter"></i>
                     </div>
-                    <div class="flex-1">
-                      <p class="text-gray-300 font-semibold group-hover:text-gray-500">
+                    <div className="flex-1">
+                      <p className="text-gray-300 font-semibold group-hover:text-gray-500">
                         Twitter
                       </p>
-                      <div class="flex items-baseline space-x-4">
-                        <h2 class="text-2xl font-semibold text-gray-300 group-hover:text-gray-700">
+                      <div className="flex items-baseline space-x-4">
+                        <h2 className="text-2xl font-semibold text-gray-300 group-hover:text-gray-700">
                           justpruthvi
                         </h2>
                       </div>
@@ -421,7 +421,7 @@ export default function Home() {
                   <a
                     href="https://twitter.com/justpruthvi"
                     target="_blank"
-                    class="block p-3 text-lg font-semibold bg-purple-50  text-purple-800 hover:bg-purple-100  cursor-pointer"
+                    className="block p-3 text-lg font-semibold bg-purple-50  text-purple-800 hover:bg-purple-100  cursor-pointer"
                   >
                     Follow
                   </a>
@@ -466,12 +466,12 @@ export default function Home() {
               {Project.languages.map(function (lang, index) {
                 return (
                   // lang cards
-                  <div class="p-2" key={index} data-aos="fade-up">
-                    <div class="group bg-gray-900  p-6 rounded-lg shadow-lg transition duration-200 hover:bg-gray-200 transform hover:scale-105">
-                      <h2 class="text-2xl font-bold mb-2 text-gray-100 group-hover:text-gray-800">
+                  <div className="p-2" key={index} data-aos="fade-up">
+                    <div className="group bg-gray-900  p-6 rounded-lg shadow-lg transition duration-200 hover:bg-gray-200 transform hover:scale-105">
+                      <h2 className="text-2xl font-bold mb-2 text-gray-100 group-hover:text-gray-800">
                         {lang.language}
                       </h2>
-                      <p class="text-gray-400 group-hover:text-gray-700">
+                      <p className="text-gray-400 group-hover:text-gray-700">
                         {lang.desc}
                       </p>
                     </div>

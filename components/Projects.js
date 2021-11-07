@@ -1,5 +1,17 @@
 const myProjects = [
   {
+    title: "Verselet",
+    subTitle: "Learning programming website",
+    desc: "I came across the project Verselet through Discord. I joined a team of small developers who were developing Verselet. I helped out with the front-end for Verselet. It was a fun project, and we are still improving it today! ",
+    img: "/static/projectImg/verselet.png",
+    imgAlt: "Verselet Image",
+    github: "#private-project",
+    website: "https://verselet.net/",
+    hash1: "#Flask",
+    hash2: "#Bootstrap 4/5",
+    hash3: "#Challenges",
+  },
+  {
     title: "Spatepate",
     subTitle: "Programming Tutorials",
     desc: "I created spatepate for developers who are looking for videos on how to code. I included the most of programming languages and gathered beginner friendly and advanced tutorials.",

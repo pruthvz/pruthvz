@@ -331,7 +331,7 @@ const About = () => {
             <div class="mb-8 flex justify-between items-center w-full right-timeline">
               <div class="order-1 w-5/12"></div>
               <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-                <h1 class="mx-auto font-semibold text-lg text-white">11</h1>
+                <h1 class="mx-auto font-semibold text-lg text-white">13</h1>
               </div>
               <div
                 class="order-1 bg-gray-900 rounded-lg shadow-xl w-5/12 px-6 py-4"
@@ -342,6 +342,58 @@ const About = () => {
                 </h3>
                 <p class="text-sm leading-snug tracking-wide text-gray-400 text-opacity-100">
                   Creating games again during the summer break.
+                </p>
+              </div>
+            </div>
+            {/*  */}
+            <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+              <div class="order-1 w-5/12"></div>
+              <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                <h1 class="mx-auto text-white font-semibold text-lg">14</h1>
+              </div>
+              <div
+                class="order-1 bg-gray-800 rounded-lg shadow-xl w-5/12 px-6 py-4"
+                data-aos="fade-right"
+              >
+                <h3 class="mb-3 font-bold text-white text-xl">
+                  2021 - Verselet
+                </h3>
+                <p class="text-sm font-medium leading-snug tracking-wide text-gray-400 text-opacity-100">
+                  At Verselet, we worked on a project together for our clients
+                  at Response. We hosted a GolfJam, that allowed programmers to
+                  answer some question. It was a fun event we worked on. We were
+                  inspired by the event so we all at Verselet decided to work on
+                  our own event called Stanza. We also are giving away a prize
+                  this time for the winner!
+                  <a
+                    href="http://verselet.net/"
+                    target="_blank"
+                    className="text-gray-200"
+                  >
+                    {" "}
+                    http://verselet.net/
+                  </a>
+                </p>
+              </div>
+            </div>
+            {/*  */}
+            <div class="mb-8 flex justify-between items-center w-full right-timeline">
+              <div class="order-1 w-5/12"></div>
+              <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                <h1 class="mx-auto font-semibold text-lg text-white">15</h1>
+              </div>
+              <div
+                class="order-1 bg-gray-900 rounded-lg shadow-xl w-5/12 px-6 py-4"
+                data-aos="fade-left"
+              >
+                <h3 class="mb-3 font-bold text-gray-200 text-xl">
+                  2021 - Bucker Inc.
+                </h3>
+                <p class="text-sm leading-snug tracking-wide text-gray-400 text-opacity-100">
+                  I wanted to improve my coding skill and understand Flask
+                  better, so I decided to work on another project which I call
+                  bucker. This project I wanted to go all out, and create
+                  something that I didn't think I'd be able to achieve.
                 </p>
               </div>
             </div>

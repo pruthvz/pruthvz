@@ -19,9 +19,9 @@ const NotFound = () => {
       </Head>
 
       <section>
-        <div class="bg-gray-900 text-white">
-          <div class="flex h-screen">
-            <div class="m-auto text-center">
+        <div className="bg-gray-900 text-white">
+          <div className="flex h-screen">
+            <div className="m-auto text-center">
               <div>
                 <svg
                   width="631"
@@ -282,7 +282,7 @@ const NotFound = () => {
                   </defs>
                 </svg>
               </div>
-              <p class="text-sm md:text-base text-white p-2 mb-4">
+              <p className="text-sm md:text-base text-white p-2 mb-4">
                 The stuff you were looking for doesn't exist
               </p>
               <a

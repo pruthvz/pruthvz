@@ -21,10 +21,10 @@ const Post = ({ title, body, image }) => {
         <title>{title}</title>
       </Head>
       <div className="mx-auto pt-10 pb-20 bg-gray-700">
-        <main class="mt-10 container mx-auto ">
-          <div class="mb-4 md:mb-0 w-full mx-auto relative">
-            <div class="px-4 lg:px-0">
-              <h2 class="pb-2 text-4xl font-semibold text-gray-100  leading-tight">
+        <main className="mt-10 container mx-auto ">
+          <div className="mb-4 md:mb-0 w-full mx-auto relative">
+            <div className="px-4 lg:px-0">
+              <h2 className="pb-2 text-4xl font-semibold text-gray-100  leading-tight">
                 {title}
               </h2>
             </div>
@@ -38,32 +38,32 @@ const Post = ({ title, body, image }) => {
             )}
           </div>
 
-          <div class="flex flex-col lg:flex-row lg:space-x-12">
-            <div class="px-4 lg:px-0 mt-12 text-gray-100 text-lg leading-relaxed w-full lg:w-3/4">
-              <p class="pb-6">
+          <div className="flex flex-col lg:flex-row lg:space-x-12">
+            <div className="px-4 lg:px-0 mt-12 text-gray-100 text-lg leading-relaxed w-full lg:w-3/4">
+              <p className="pb-6">
                 <BlockContent blocks={body} />
               </p>
             </div>
 
-            <div class="w-full lg:w-1/4 m-auto mt-12 max-w-screen-sm">
-              <div class="p-4 border-t border-b md:border md:rounded">
-                <div class="flex py-2">
+            <div className="w-full lg:w-1/4 m-auto mt-12 max-w-screen-sm">
+              <div className="p-4 border-t border-b md:border md:rounded">
+                <div className="flex py-2">
                   <img
                     src="https://pbs.twimg.com/profile_images/1370181365669453825/UVvg8XqH_400x400.jpg"
-                    class="h-10 w-10 rounded-full mr-2 object-cover"
+                    className="h-10 w-10 rounded-full mr-2 object-cover"
                   />
                   <div>
-                    <p class="font-semibold text-gray-300 text-sm">
+                    <p className="font-semibold text-gray-300 text-sm">
                       {" "}
                       Pruthvi Mohanlal{" "}
                     </p>
-                    <p class="font-semibold text-gray-400  text-xs">
+                    <p className="font-semibold text-gray-400  text-xs">
                       {" "}
                       Programmer{" "}
                     </p>
                   </div>
                 </div>
-                <p class="text-gray-200 py-3">
+                <p className="text-gray-200 py-3">
                   I am Pruthvi, I write short blogs about web technologies,
                   books and programming in general.
                 </p>
@@ -71,10 +71,10 @@ const Post = ({ title, body, image }) => {
                   href="https://twitter.com/justpruthvi"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="px-2 py-1 text-gray-100 bg-purple-700 hover:bg-purple-800 transition duration-200 flex w-full items-center justify-center rounded"
+                  className="px-2 py-1 text-gray-100 bg-purple-700 hover:bg-purple-800 transition duration-200 flex w-full items-center justify-center rounded"
                 >
                   Follow
-                  <i class="bx bx-user-plus ml-2"></i>
+                  <i className="bx bx-user-plus ml-2"></i>
                 </a>
               </div>
             </div>

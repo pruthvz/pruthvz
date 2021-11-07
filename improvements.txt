@@ -1,32 +1,38 @@
 BLOGGING WEBSITE USING NEXT.JS AND SANITY !
 
-TODO 
-- ADD THE TIMELINE IN ABOUT ME
+-------- INCLUDE THE FOLLOWING ---------
+; Stylings
+; Tailwind
+; My Portfolio
+; Animations using AOS
 
 
-<h1>Things to apply to this project!</h1>
-<div>
-<h6>Stylings</h6>
-<h6>Tailwind</h6>
-<h6>Material Design Bootstrap</h6>
-<h6>My Portfolio</h6>
-<h6>Animations using AOS</h6>
-</div>
+------------- NEW STUFF TO ADD ---------------- 
 
-<div>
-    About me 
+<h6>  ADD CONTACT PAGE  </h6>
+<h6>  BUY DOMAIN  </h6>
+<h6>  ADD RESUME DOWNLOAD LINK ! </h6>
+<h6>  ADD A FAVIOURTE BOOK SECTION !! </h6>
 
-    - About me,
+------------- NEW STUFF TO ADD ---------------- 
+
+
+
+------------ ABOUT ME ----------------- 
     - My skills, languages i know
     - my likes and dislikes, hobbies
-</div>
+------------ ABOUT ME ----------------- 
 
 
-<div>
-    Contact me Page
 
-    - CONTACT ME NOW
-</div>
+
+----------- CONTACT ME NOW PAGE!!!!!!!! ---------------
+
+    - Simple Contact me page 
+    - React email
+    - Tailwind CSS
+
+----------- CONTACT ME NOW PAGE!!!!!!!! ---------------
 
 
 <div>

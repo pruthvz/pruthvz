@@ -38,6 +38,58 @@ function projects() {
         </section>
       </header>
 
+      {/* BUCKER PROJECT */}
+      <section className="pt-32 pb-32" style={{ background: "#242e3df3" }}>
+        <div className="container mx-auto">
+          <div
+            className="xl:w-3/3  md:w-2/2 p-4"
+            data-aos="fade-up"
+            data-aos-offset="100"
+          >
+            <h2 className="text-gray-200 font-extrabold text-3xl pb-4">
+              Project, I'm currently working on..
+            </h2>
+            <div className="bg-gray-900 bg-opacity-100 p-6 rounded-lg transform transition duration-300 cursor-auto">
+              <img
+                src="https://images.unsplash.com/photo-1562813733-b31f71025d54?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80"
+                className="h-40 rounded w-full object-cover object-center mb-6"
+              />
+
+              <h3 className="tracking-widest text-purple-500 text-xs font-medium title-font">
+                Music Streaming App
+              </h3>
+              <h2 className="text-lg text-gray-200 font-medium title-font mb-2">
+                bucker inc.
+              </h2>
+              <p className="leading-relaxed text-base text-gray-400">
+                We are still working on the project, we will soon release a beta
+                version for everyone. Our main stack for this web app is,
+                Python, Flask, React.js, TailwindCSS, MySQL
+              </p>
+              {/* hashtags if they look bad delete it */}
+              <div class="mt-3 mb-2">
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #Flask/Python
+                </span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #React.js
+                </span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #TailwindCSS
+                </span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #MySQL
+                </span>
+              </div>
+              {/* hashtags */}
+              {/* CODE ICONS */}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* BUCKER PROJECT */}
+
       {/* PROJECTS BELOW */}
       <section className="pt-32 pb-32" style={{ background: "#1f2937f3" }}>
         <div className="container px-5 py-24 mx-auto">
@@ -107,53 +159,53 @@ function projects() {
             </div>
           </div>
 
-          <div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-3 px-4">
+          <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-3 px-4">
             <Link href="https://play.google.com/store/apps/details?id=com.SpateInc.Tevoo">
-              <div class=" group bg-gray-900 border-purple-400 dark:bg-gray-800 bg-opacity-95 border-opacity-60 | p-4 border-solid rounded-3xl border-2 | flex justify-around cursor-pointer | hover:bg-purple-400 dark:hover:bg-indigo-600 hover:border-transparent | transition-colors duration-500">
+              <div className=" group bg-gray-900 border-purple-400 dark:bg-gray-800 bg-opacity-95 border-opacity-60 | p-4 border-solid rounded-3xl border-2 | flex justify-around cursor-pointer | hover:bg-purple-400 dark:hover:bg-indigo-600 hover:border-transparent | transition-colors duration-500">
                 <img
-                  class="w-16 h-16 object-cover rounded-3xl"
+                  className="w-16 h-16 object-cover rounded-3xl"
                   src="https://play-lh.googleusercontent.com/T8t5IS1U9OdmAz_abEG3EEFICAGK-ACPmffMyuGGTkbO_PYnhAi_MPdDNybMW0ax-1GI=s180-rw"
                   alt=""
                 />
-                <div class="flex flex-col justify-center">
-                  <p class="text-gray-100 dark:text-gray-300 font-semibold">
+                <div className="flex flex-col justify-center">
+                  <p className="text-gray-100 dark:text-gray-300 font-semibold">
                     Tevoo
                   </p>
-                  <p class="text-gray-300 dark:text-gray-100 text-justify font-semibold group-hover:text-gray-100">
+                  <p className="text-gray-300 dark:text-gray-100 text-justify font-semibold group-hover:text-gray-100">
                     Installs : 10+
                   </p>
                 </div>
               </div>
             </Link>
             <Link href="https://play.google.com/store/apps/details?id=com.Spate.PreciseBolter">
-              <div class="group bg-gray-900 border-purple-400 dark:bg-gray-800 bg-opacity-95 border-opacity-60 | p-4 border-solid rounded-3xl border-2 | flex justify-around cursor-pointer | hover:bg-purple-400 dark:hover:bg-indigo-600 hover:border-transparent | transition-colors duration-500">
+              <div className="group bg-gray-900 border-purple-400 dark:bg-gray-800 bg-opacity-95 border-opacity-60 | p-4 border-solid rounded-3xl border-2 | flex justify-around cursor-pointer | hover:bg-purple-400 dark:hover:bg-indigo-600 hover:border-transparent | transition-colors duration-500">
                 <img
-                  class="w-16 h-16 object-cover rounded-3xl"
+                  className="w-16 h-16 object-cover rounded-3xl"
                   src="https://play-lh.googleusercontent.com/vNdn7evHek1LW9miGRZXou4VotIpyDoYk8PWB_fO4XZaNqTYvaUpeD0V5pqG9y3_aQ=s180-rw"
                   alt=""
                 />
-                <div class="flex flex-col justify-center">
-                  <p class="text-gray-100 dark:text-gray-300 font-semibold">
+                <div className="flex flex-col justify-center">
+                  <p className="text-gray-100 dark:text-gray-300 font-semibold">
                     Precise Bolter
                   </p>
-                  <p class="text-gray-300 dark:text-gray-100 text-justify font-semibold group-hover:text-gray-100">
+                  <p className="text-gray-300 dark:text-gray-100 text-justify font-semibold group-hover:text-gray-100">
                     Installs : 10+
                   </p>
                 </div>
               </div>
             </Link>
             <Link href="https://play.google.com/store/apps/details?id=com.SpateInc.DazzledDot">
-              <div class="group bg-gray-900 border-purple-400 dark:bg-gray-800 bg-opacity-95 border-opacity-60 | p-4 border-solid rounded-3xl border-2 | flex justify-around cursor-pointer | hover:bg-purple-400 dark:hover:bg-indigo-600 hover:border-transparent | transition-colors duration-500">
+              <div className="group bg-gray-900 border-purple-400 dark:bg-gray-800 bg-opacity-95 border-opacity-60 | p-4 border-solid rounded-3xl border-2 | flex justify-around cursor-pointer | hover:bg-purple-400 dark:hover:bg-indigo-600 hover:border-transparent | transition-colors duration-500">
                 <img
-                  class="w-16 h-16 object-cover rounded-3xl"
+                  className="w-16 h-16 object-cover rounded-3xl"
                   src="https://play-lh.googleusercontent.com/KyCtXP11MeFN8j0zDIv_7SbJ1JuMzD7YIzkPhtFTfJevt2Sf_9Lp0w-Q1dZiAJ_4ts73=s180-rw"
                   alt=""
                 />
-                <div class="flex flex-col justify-center">
-                  <p class="text-gray-100 dark:text-gray-300 font-semibold">
+                <div className="flex flex-col justify-center">
+                  <p className="text-gray-100 dark:text-gray-300 font-semibold">
                     Dazzled Dot
                   </p>
-                  <p class="text-gray-300 dark:text-gray-100 text-justify font-semibold group-hover:text-gray-100">
+                  <p className="text-gray-300 dark:text-gray-100 text-justify font-semibold group-hover:text-gray-100">
                     Installs : 5+
                   </p>
                 </div>
