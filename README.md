@@ -1,13 +1,13 @@
 <h1 align="center">Hi 👋, I'm Pruthvi</h1>
 <h3 align="center">Creative web developer dedicated to developing and optimizing interactive, user-friendly, and feature-rich websites.</h3>
 
-- 🎯 I’m Currently focusing on Bucker.
+- 🎯 I’m Currently focusing on Destro.
 
 - 🔭 I’m currently working on **my portfolio.**
 
 - 🌱 I’m currently learning **Next.js, Flask, TailwindCSS and some Machine Learning.**
 
-- 🤝 I’m looking for help with **Bucker Inc.**
+- 🤝 I’m looking for help with **Destro Lab.**
 
 - 👨‍💻 All of my projects are available at [..](..)
 
