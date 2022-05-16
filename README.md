@@ -1,26 +1,102 @@
-<h1 align="center">Hi 👋, I'm Pruthvi</h1>
-<h3 align="center">Creative web developer dedicated to developing and optimizing interactive, user-friendly, and feature-rich websites.</h3>
+<div align="center">
+<img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
+</div>  
+  
 
-- 🎯 I’m Currently focusing on Destro.
+### <div align="center">I'm Pruthvi, creative web developer dedicated to developing and optimizing interactive, user-friendly, and feature-rich websites. 🚀</div>  
+  
 
-- 🔭 I’m currently working on **Destro Lab.**
+- 🔭 I’m currently working on Destro Lab.  
+  
 
-- 🌱 I’m currently learning **Next.js, Flask, TailwindCSS and some Machine Learning.**
+- 🌱 I’m currently learning Flask backend/React.js  
+  
 
-- 🤝 I’m looking for help with **Verselet.**
+- 💬 Ask me about JavaScript, React, Bootstrap, TailwindCSS, HTML/CSS.  
+  
 
-- 👨‍💻 All of my projects are available at [..](..)
+- ⚡ Fun fact I start every new project with "Hello World."  
+  
 
-- 💬 Ask me about **JavaScript, React, Bootstrap, TailwindCSS, HTML/CSS.**
+<br/>  
 
-- ⚡ Fun fact **I start every new project with "Hello World."**
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/justpruthvi" target="blank"><img align="center" src="https://pbs.twimg.com/profile_images/1462591448600264709/f0GaR4rT_400x400.jpg" alt="justpruthvi" height="30" width="40" /></a>
-</p>
+## My Skill Set  
+<table><tr><td valign="top" width="33%">
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-original.svg" alt="django" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-3.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> </p>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=pruthvz&show_icons=true&locale=en&layout=compact" alt="pruthvz" /></p>
+
+### Frontend  
+<div align="center">  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/electron-original.svg" alt="Electron" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" />  
+</div>
+
+</td><td valign="top" width="33%">
+
+
+
+### Backend
+  
+<div align="center">  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/django-original.svg" alt="Django" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/flask.png" alt="Flask" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/csharp-original.svg" alt="C#" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="50" />  
+</div>
+
+</td><td valign="top" width="33%">
+
+
+
+</td></tr></table>  
+
+<br/>  
+
+
+## Connect with me  
+<div align="center">
+<a href="https://twitter.com/justpruthvi" target="_blank">
+<img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
+</a>
+<a href="https://github.com/pruthvz" target="_blank">
+<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
+</a>  
+</div>  
+  
+
+<br/>  
+
+
+## Github Stats  
+<div align="center"><img src="https://github-readme-stats.vercel.app/api?username=pruthvz&show_icons=true&count_private=true&hide_border=true" align="center" /></div>  
+
+<br/>  
+
+
+## Recent Blog Posts  
+  
+
+<br/>  
+
+  
+
+<br/>  
+
+<div align="center">
+<img src="https://komarev.com/ghpvc/?username=pruthvz&&style=flat-square" align="center" />
+</div>  
+  
+
+<br/>  
+
+
+<br />
+
+----
+<div align="center">Generated using <a href="https://profilinator.rishav.dev/" target="_blank">Github Profilinator</a></div>
