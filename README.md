@@ -3,21 +3,21 @@
 
 - 🎯 I’m Currently focusing on Destro.
 
-- 🔭 I’m currently working on **my portfolio.**
+- 🔭 I’m currently working on **Destro Lab.**
 
 - 🌱 I’m currently learning **Next.js, Flask, TailwindCSS and some Machine Learning.**
 
-- 🤝 I’m looking for help with **Destro Lab.**
+- 🤝 I’m looking for help with **Verselet.**
 
 - 👨‍💻 All of my projects are available at [..](..)
 
-- 💬 Ask me about **JavaScript, React, Bootstrap, HTML/CSS.**
+- 💬 Ask me about **JavaScript, React, Bootstrap, TailwindCSS, HTML/CSS.**
 
 - ⚡ Fun fact **I start every new project with "Hello World."**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://twitter.com/justpruthvi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/neutral-icons/src/images/icons/Social/twitter.svg" alt="justpruthvi" height="30" width="40" /></a>
+<a href="https://twitter.com/justpruthvi" target="blank"><img align="center" src="https://pbs.twimg.com/profile_images/1462591448600264709/f0GaR4rT_400x400.jpg" alt="justpruthvi" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
