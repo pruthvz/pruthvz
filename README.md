@@ -9,7 +9,7 @@
 🚀 **Fueling Digital Innovation** while **Building Fashion Statements**  
 💻 **Tech Stack:** JavaScript | React | TypeScript | Python | TailwindCSS | shadcn  
 👔 **Founder:** [Crescent Clothing](https://shopcrescent.uk)  
-🏎️ **Building:** [RevvLane](https://github.com/your-repo) - Car Enthusiast Community Platform  
+🏎️ **Building:** [RevvLane](https://github.com/pruthvz) - Car Enthusiast Community Platform  
 
 ---
 
@@ -43,7 +43,7 @@
 
 ### 🌟 Featured Projects
 
-#### [RevvLane](https://github.com/your-repo) 🏎️  
+#### [RevvLane](https://github.com/pruthvz) 🏎️  
 _Car Enthusiast Social Platform_  
 Next-gen community platform featuring vehicle showcases, meetup coordination, and enthusiast networking.  
 **Stack:** React + TypeScript + Tailwind + Flask
