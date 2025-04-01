@@ -1,99 +1,83 @@
 <div align="center">
-<img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
-</div>  
-  
+  <img src="https://rishavanand.github.io/static/images/greetings.gif" style="width: 100%" />
+  <h2>About me</h2>
+</div>
+<br/>
 
-### <div align="center">I'm Pruthvi, creative web developer dedicated to developing and optimizing interactive, user-friendly, and feature-rich websites. 🚀</div>  
-  
+### <div align="center">👋 Hi! I'm Pruthvi - Full Stack Developer</div>
 
-- 🔭 I’m currently working on Destro Lab.  
-  
+🚀 **Fueling Digital Innovation** while **Building Fashion Statements**  
+💻 **Tech Stack:** JavaScript | React | TypeScript | Python | TailwindCSS | shadcn  
+👔 **Founder:** [Crescent Clothing](https://shopcrescent.uk)  
+🏎️ **Building:** [RevvLane](https://github.com/your-repo) - Car Enthusiast Community Platform  
 
-- 🌱 I’m currently learning Flask backend/React.js  
-  
+---
 
-- 💬 Ask me about JavaScript, React, Bootstrap, TailwindCSS, HTML/CSS.  
-  
+### 🔥 Current Focus
+- **revvlane Development** - Building a next-gen automotive social platform for car enthusiasts 🚗💨
+- **shopcrescent** - Elevating our fashion & shop at crescent now. 👕✨
+- **Mastering** AI, Machine Learning 📚
 
-- ⚡ Fun fact I start every new project with "Hello World."  
-  
+---
 
-<br/>  
+### 🛠️ Tech Arsenal
 
+#### **Frontend Mastery**
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white)
+![shadcn/ui](https://img.shields.io/badge/-shadcn/ui-000000?style=flat)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
-## My Skill Set  
-<table><tr><td valign="top" width="33%">
+#### **Backend Expertise**
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/-Flask-000000?logo=flask&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=nodedotjs&logoColor=white)
 
+#### **Toolkit**
+![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white)
+![Vercel](https://img.shields.io/badge/-Vercel-000000?logo=vercel&logoColor=white)
 
+---
 
-### Frontend  
-<div align="center">  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/electron-original.svg" alt="Electron" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" />  
+### 🌟 Featured Projects
+
+#### [RevvLane](https://github.com/your-repo) 🏎️  
+_Car Enthusiast Social Platform_  
+Next-gen community platform featuring vehicle showcases, meetup coordination, and enthusiast networking.  
+**Stack:** React + TypeScript + Tailwind + Flask
+
+#### [Crescent Clothing](https://shopcrescent.uk) 👕  
+_Premium Streetwear_  
+Reflect, evolve, and shine. Spread the light, one phase at a time!
+
+---
+
+### 📈 GitHub Stats  
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=pruthvz&show_icons=true&count_private=true&theme=radical" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pruthvz&layout=compact&theme=radical" />
 </div>
 
-</td><td valign="top" width="33%">
+---
 
-
-
-### Backend
-  
-<div align="center">  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/django-original.svg" alt="Django" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/flask.png" alt="Flask" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/csharp-original.svg" alt="C#" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="50" />  
+### 💌 Let's Connect
+<div align="center">
+  <a href="https://github.com/pruthvz" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://shopcrescent.uk" target="_blank">
+    <img src="https://img.shields.io/badge/Crescent_Store-000000?style=for-the-badge&logo=shopify&logoColor=white" />
+  </a>
 </div>
 
-</td><td valign="top" width="33%">
-
-
-
-</td></tr></table>  
-
-<br/>  
-
-
-## Connect with me  
-<div align="center">
-<a href="https://twitter.com/justpruthvi" target="_blank">
-<img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
-</a>
-<a href="https://github.com/pruthvz" target="_blank">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
-</a>  
-</div>  
-  
-
-<br/>  
-
-
-## Github Stats  
-<div align="center"><img src="https://github-readme-stats.vercel.app/api?username=pruthvz&show_icons=true&count_private=true&hide_border=true" align="center" /></div>  
-
-<br/>  
-
-
-## Recent Blog Posts  
-  
-
-<br/>  
-
-  
-
-<br/>  
+---
 
 <div align="center">
-<img src="https://komarev.com/ghpvc/?username=pruthvz&&style=flat-square" align="center" />
-</div>  
-  
-
-<br/>  
-
-
-<br />
+  <img src="https://komarev.com/ghpvc/?username=pruthvz&style=flat-square&color=blue" />
+  <p>⚡ Fun Fact: I once debugged a production issue while modeling for a crescent photoshoot! 📸</p>
+</div>
